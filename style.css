@@ -30,9 +30,12 @@ h2 {
     color: rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
-    margin: 10px;
+    margin: 60px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-top: 30px;
     background-color: #729bad;
+    border-radius: 20px;
 }
 
 h3 {
@@ -42,21 +45,18 @@ h3 {
 }
 
 .img1 {
-    width: 400px;
-    height: 350px;
-    border: 1px solid lightcyan;
-    border-radius: 25%;
+    border: 5px solid #729bad;
+    border-radius: 25px;
     padding: 10px;
-    margin-top: 10px;
+    margin: 10px;
+    background-color: #729bad;
 }
 
 .img2 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 10px solid #729bad;
     border-radius: 25%;
-    padding: 10px;
-    margin-top: 10px;
 }
 
 .img3 {
@@ -68,47 +68,85 @@ h3 {
     margin-top: 10px;
 }
 
-ol {
-    margin: 10px;
+.img4 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #729bad;
+    border-radius: 25%;
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
     background-color: #81a5b4;
     border: 5px solid #729bad;
-    border-radius: 5%;
+    border-radius: 10px;
     color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.p1 {
+    margin: 20px;
+    color: #ffffff;
+    font-size: 25px;
+    display: inline;
 }
 
 /* menu */
-nav {
+.nav {
     background-color: #729bad;
     padding: 10px;
 }
 
+.nav1 { 
+    background-color: #729bad;
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: left;
+}
+
+.nav2 { 
+    background-color: #81a5b4;
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+}
+
 .li {
-    display: inline;
-    margin-right: 20px;
+    margin: 20px;
     padding: 25px;
     font-size: 25px;
+    display: inline;
 }
 
 .li1 {
     display: inline;
-    margin-right: 20px;
+    margin: 30px;
     padding: 25px;
     font-size: 25px;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
-
-/*.li1 {
-    display: inline;
-    margin-right: 20px;
-    padding: 25px;
-}*/
 
 .li2 {
     display: inline;
     margin-right: 20px;
     margin: 50px;
-    padding: 25px;
+    padding: 50px;
     color: white;
+}
+
+.li3 {
+    display: inline;
+    margin: 30px;
+    padding: 30px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 a {
